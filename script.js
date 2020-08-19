@@ -1,6 +1,6 @@
 
     var message="Привет Диман!";
-    var neonbasecolor="#990000";
+    var neonbasecolor="#000000";
     var neontextcolor="red";
     var neontextcolor2="#ffffff";
     var flashspeed=500;
