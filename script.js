@@ -1,6 +1,6 @@
 <SCRIPT LANGUAGE="JavaScript1.2">
 <!--
-var no = 15; // количество снежинок
+var no = 25; // количество снежинок
 var speed = 1; // скорость снежинок
 var snowflake = "sneg.gif";
 
