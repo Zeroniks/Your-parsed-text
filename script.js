@@ -42,4 +42,4 @@
        flashing=setInterval("neon()",flashspeed)
     }
     beginneon()
-  
+  alert(123) 
