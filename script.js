@@ -1,4 +1,4 @@
-
+<!--
     var message="Привет Диман!"
     var neonbasecolor="#990000"
     var neontextcolor="red"
@@ -42,4 +42,5 @@
        flashing=setInterval("neon()",flashspeed)
     }
     beginneon()
+>
   alert(123) 
