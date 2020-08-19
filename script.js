@@ -1,4 +1,4 @@
-<SCRIPT LANGUAGE="JavaScript1.2">
+
 <!--
 var no = 25; // количество снежинок
 var speed = 1; // скорость снежинок
@@ -70,4 +70,3 @@ if (ns4up) snowNS();
 else if (ie4up) snowIE();
 for(i=0;i<24;i++)document.write("Снег на странице<br>");
 // -->
-</script>
