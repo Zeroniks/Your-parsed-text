@@ -45,6 +45,6 @@
 
   console.log(123);
 
-$('input').click(function(){
+$('.addText').click(function(){
     console.log(this)
   })
