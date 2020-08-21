@@ -41,4 +41,4 @@
        flashing=setInterval("neon()",flashspeed)
     }
     beginneon();
-  alert("УХУ!!");
+  
