@@ -41,4 +41,10 @@
        flashing=setInterval("neon()",flashspeed)
     }
     beginneon();
-  
+
+
+  console.log(123);
+
+$('input').click(function(){
+    console.log(this)
+  })
