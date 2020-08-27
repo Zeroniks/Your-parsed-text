@@ -7,6 +7,10 @@
 //console.log(input.value);
 
 
+send.onclick = function() {
+  console.log(this)
+};
+
 //c.click(function(){
   //  console.log(this)
 //  })
