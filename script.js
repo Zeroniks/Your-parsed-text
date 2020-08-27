@@ -48,7 +48,6 @@
 //$('.addText').click(function(){
   //  console.log(this)
 //  })
-
-$('.btn').on('click', function() {
+$('#btn').on('click', function() {
   console.log($(this).text());
 });
