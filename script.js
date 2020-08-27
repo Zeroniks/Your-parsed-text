@@ -41,13 +41,3 @@
        flashing=setInterval("neon()",flashspeed)
     }
     beginneon();
-
-
-  console.log(123);
-
-//$('.addText').click(function(){
-  //  console.log(this)
-//  })
-$('#btn').on('click', function() {
-  console.log($(this).text());
-});
