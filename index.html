@@ -9,6 +9,15 @@
   </head>
 
   <body>
+    <script type="text/javascript">
+    $(document).ready(function()
+    {
+      $('.send').click(function(){
+      console.log(123,$(this));
+    });
+  });
+    </script>
+
 <div>
 <br/><br/><br/><br/><br/>
     <h1><a href="">Обновить страницу</a></h1>
@@ -16,7 +25,7 @@
 
  <form  name="test" method="post" action="">//name-имя формы, post=
    <input type="text" size="40" placeholder="введите сообщение">
-   <input id="send" type="submit" value="Отправить">
+   <input class="send" type="submit" value="Отправить">
 </form>
  </body>
 
