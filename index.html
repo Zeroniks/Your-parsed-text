@@ -15,10 +15,11 @@
 
   <body>
     <script tipe="text/javascript">
-    $(document).ready(function()
-    {
+
+    $(document).ready(function(){
     $('.send').click(function() {
-     console.log(123,$(this));
+      var b = $('#a1').val();
+     console.log(b);
     });
     });
     </script>
@@ -29,10 +30,12 @@
 
  </div>
 
-
- <form  name="test" method="post" action="" onsubmit="return false">//name-имя формы, post=
-   <input type="text" size="40" placeholder="введите сообщение">
-   <input class="send" type="submit" value="Отправить">
+<div>
+ <form class="send" name="test" method="post" action="" onsubmit="return false">//name-имя формы, post=
+   <input id="a1" type="text" size="40" placeholder="введите сообщение">
+   <input  type="submit" placeholder="стереть">
+   <input type="reset" value="стереть">
+ </div>
 </form>
 
  </body>
