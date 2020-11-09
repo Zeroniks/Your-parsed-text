@@ -22,21 +22,28 @@
      console.log(b);
     });
     });
+
+    $('button').click(function(){
+    var name = $('#recipe').val();
+  var ingredients = $('#ingredients').val();
+  localStorage.setItem(name, ingredients);
+});
     </script>
 
 
-<div>
-<br/><br/><br/><br/><br/>
 
- </div>
 
-<div>
- <form class="send" name="test" method="post" action="" onsubmit="return false">//name-имя формы, post=
-   <input id="a1" type="text" size="40" placeholder="введите сообщение">
-   <input  type="submit" placeholder="стереть">
-   <input type="reset" value="стереть">
+
+
+<div></br></br>
+ <form id="a3" class="send" name="test" method="post" action="" onsubmit="return false">
+   <input id="a1" type="text" size="40" placeholder="Введите сообщение">
+   <input type="submit">
+   <input type="reset" value="Стереть" onclick="return confirm('Вы уверены, что хотите cтереть всё?')">
  </div>
 </form>
+
+
 
  </body>
 
